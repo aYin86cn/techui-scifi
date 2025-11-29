@@ -84,7 +84,7 @@ UNLICENSED
 ## 🚀 TechUI Scifi - 动态 SVG 科幻组件库
 
 - 一个免费的、动态的 SVG UI 组件库,用于绘制科幻、未来风格的UI界面，基于 Vue 3 开发。
-- Starter目录是一个TechUI-Scifi工程的最小启动工程内部仅仅有数个组件的简单Demo。
+- Starter目录是一个TechUI-Scifi工程的最小启动工程，内部仅仅有数个组件的简单Demo。
 - Testcase目录是TechUI-Scifi工程的测试用例，内部有绝大多数的组件的演示Demo。
 - 目前TechUI-Scifi组件库的文档暂无，正在积极的开发中。
 
