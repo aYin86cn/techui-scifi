@@ -29,6 +29,7 @@
 - **scifiHeader** - Sci-fi style headers
 - **scifiPanel** - Panel containers with sci-fi aesthetics
 - **scifiPanelTitle** - Stylized panel titles
+- **TechUI Base Components (New in 0.0.7)** - A selection of components from the TechUI base component library
 
 ### 🎯 TuiAdaptive - Revolutionary Responsive Component
 
@@ -104,6 +105,7 @@ UNLICENSED
 - **scifiHeader** - 科幻风格头部
 - **scifiPanel** - 科幻面板容器
 - **scifiPanelTitle** - 科幻面板标题
+- **TechUI Base 部分组件 (0.0.7新增)** - TechUI基础组件库
 
 ### 🎯 TuiAdaptive - 革命性的自适应组件
 
