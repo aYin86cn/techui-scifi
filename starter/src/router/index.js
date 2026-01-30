@@ -4,8 +4,20 @@ const router = createRouter({
   routes :[
     { 
       path: "/", 
-      name: "demo", 
-      component:()=>import("../view/demo.vue") 
+      name: "index", 
+      redirect:"/layoutA",
+    },
+    { 
+      path: "/layoutA", 
+      name: "layoutA", 
+      component:()=>import("../view/layoutA.vue"),
+      meta: { order:1 }
+    },
+    { 
+      path: "/layoutB", 
+      name: "layoutB", 
+      component:()=>import("../view/layoutB.vue"),
+      meta: { order:2 }
     },
   ]
 });

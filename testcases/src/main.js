@@ -1,3 +1,4 @@
+import * as echarts from 'echarts';
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
@@ -18,13 +19,12 @@ const app = createApp(App);
 const params={
   app,
   debug:true,
-  // features:{
-  //   echarts:true,
-  //   advanced:true,
-  // }
+  features:{//付费组件和功能
+    echarts,
+    advanced:true,
+  }
 }
 TechUIInit(params).then(()=>{
-  // app.use(locales)
   app.use(router)
   app.use(store)
   app.use(globalComps)
